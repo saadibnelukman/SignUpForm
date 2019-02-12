@@ -75,6 +75,9 @@ public class MainActivity extends AppCompatActivity {
                 }else if(femaleRB.isChecked()){
                     Gender = "Female";
 
+                }else
+                {
+                    Toast.makeText(MainActivity.this, "Sign Up Completed", Toast.LENGTH_SHORT).show();
                 }
             }
         });
